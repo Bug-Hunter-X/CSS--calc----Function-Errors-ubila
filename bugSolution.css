@@ -1,0 +1,12 @@
+/* Corrected CSS using calc() */
+.element {
+  width: calc(50% - 20px);
+  /* Correct: Uses consistent units and clear operator precedence */
+  height: calc(100vh - 100px);
+}
+
+/* Previous incorrect CSS */
+/*.element {
+  width: calc(50% - 20); /* Incorrect: Missing 'px' unit */
+  height: calc(100vh-100px); /* Incorrect: Operator precedence issues if multiple operations */
+}*/
